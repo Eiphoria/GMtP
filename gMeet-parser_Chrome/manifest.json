@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name": "GmeetParser",
+	"version": "1.0",
+	"action": {"default_icon": "images/image.png","default_title": "Click to parse users."},
+	"description": "Google meet username parser",
+	"icons": {"194": "images/image.png"},
+	"author": "@polymorphous",
+    "background": {
+    "service_worker": 
+      "GMeetParser.js"
+    },
+	"permissions": [
+	  "tabs",
+	  "activeTab",
+	  "scripting",
+	  "clipboardWrite"
+	],
+	"host_permissions": [
+  "https://meet.google.com/",
+  "*://*/*"
+]
+
+}

@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "GmeetParser",
+  "version": "1.0",
+  "description": "Google meet username parser",
+  "icons": {
+    "464": "icons/images11_cr.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "gmeet.parser@polymorphous.org",
+      "strict_min_version": "55.0"
+    }
+  },
+  "browser_action": {
+    "default_icon": "icons/images11_cr.png",
+    "default_title": "GmeetParser"
+  },
+  "background": {
+    "scripts": [
+      "GmeetParser.js"
+    ]
+  },
+  "permissions": [
+  "<all_urls>",
+  "clipboardWrite",
+  "tabs"
+]
+
+}
