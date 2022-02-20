@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "GmeetParser",
-	"version": "1.1",
+	"version": "1.0",
 	"action": {"default_icon": "images/image.png","default_title": "Click to parse users."},
 	"description": "Google meet username parser",
 	"icons": {"194": "images/image.png"},
